@@ -1,0 +1,11 @@
+@use './abstract/var';
+@use './abstract/reset';
+
+@use './components/home/actualpage';
+@use './components/home/header';
+@use './components/home/nav';
+@use './components/home/main';
+@use './components/home/top-bar';
+@use './components/home/review';
+@use './components/home/pendingtables';
+@use './components/home/lasttables';

@@ -1,0 +1,9 @@
+@use './lasttables';
+
+.PendingSec {
+    @extend .Last;
+    .PendingTable {
+        @extend .LastTable;
+    }
+    
+}

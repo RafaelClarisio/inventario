@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 13fr 87fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  // Remover margens e preenchimentos padrão
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  // Estilo padrão para elementos HTML
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  // Remover estilos de lista padrão
+  ul, ol {
+    list-style: none;
+  }
+  
+  // Remover decoração de link padrão
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  // Remover estilo de lista e botões padrão
+  button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+  }

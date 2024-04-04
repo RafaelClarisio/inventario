@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "outDir": "./dev/js/",
+        "noEmitOnError": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
+
+
+// sass --watch scss/styles.scss:src/styles.css

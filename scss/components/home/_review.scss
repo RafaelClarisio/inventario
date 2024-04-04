@@ -1,0 +1,45 @@
+.Review {
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    height: 105px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2%;
+    padding: 0 3%;
+    .Actives {
+        background: #7ABE78;
+        padding: 1rem 2rem;
+        font-size: 20px;
+        color: #F6F6F6;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        transition: 0.3s;
+        &:hover {
+            -webkit-box-shadow: inset 0px 0px 31px 11px rgba(0,0,0,0.28);
+            -moz-box-shadow: inset 0px 0px 31px 11px rgba(0,0,0,0.28);
+            box-shadow: inset 0px 0px 31px 11px rgba(0,0,0,0.28);
+            cursor: pointer;
+                }
+    }
+    .Users {
+        @extend .Actives;
+        background: #7ABE78;
+
+    }
+    .Stock {
+        @extend .Actives;
+        background: #BEBB78;
+
+    }
+    .Defect {
+        @extend .Actives;
+        background: #BE7878;
+
+    }
+    .Pending {
+        @extend .Actives;
+        background: #BE7878;
+
+    }
+}
